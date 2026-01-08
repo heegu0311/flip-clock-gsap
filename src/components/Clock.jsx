@@ -31,12 +31,12 @@ const Clock = () => {
       </div>
       <Digit key={2} digit={+timeDigits[2]} />
       <Digit key={3} digit={+timeDigits[3]} />
-      {/*<div className="colon">*/}
-      {/*  <span className="dot" />*/}
-      {/*  <span className="dot" />*/}
-      {/*</div>*/}
-      {/*<Digit key={4} digit={+timeDigits[4]} />*/}
-      {/*<Digit key={5} digit={+timeDigits[5]} />*/}
+      <div className="colon">
+        <span className="dot" />
+        <span className="dot" />
+      </div>
+      <Digit key={4} digit={+timeDigits[4]} />
+      <Digit key={5} digit={+timeDigits[5]} />
     </div>
   );
 };
